@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+  <node pkg="my_image_transport" name="my_image_transport_node" type="my_image_transport_node" output="screen">
+  <param name="advertise_topic_name" type="string" value="/back_camera/image_raw"/>
+  <param name="video_location" type="string" value="/dev/video0"/>
+  <param name="show_video" type="bool" value="true"/>
+  <param name="ifpublishEndless" type="bool" value="false"/>
+  <param name="ifslowdown" type="bool" value="true"/>
+  <param name="loop_rate_num" type="int" value="120"/>
+  <param name="resizeRate" type="double" value="1"/>
+  </node>
+</launch>
+

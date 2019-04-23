@@ -1,0 +1,3 @@
+/home/kevin/Downloads/Linux_camera/camera_c++/build/CMakeFiles/edit_cache.dir
+/home/kevin/Downloads/Linux_camera/camera_c++/build/CMakeFiles/rebuild_cache.dir
+/home/kevin/Downloads/Linux_camera/camera_c++/build/CMakeFiles/read_camera.dir

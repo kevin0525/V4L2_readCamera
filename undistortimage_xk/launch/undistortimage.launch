@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+        <node pkg="undistortimage_xk" type="undistortimage_xk_node" name="undistortimage_xk_node" output="screen">
+                <!-- node parameters -->
+		<param name="cameraYML" type="string" value="$(find undistortimage_xk)/data/usb_xk1_640_480 .yml"/>
+                <param name="focal_multiple" type="double" value="1"/>
+                <param name="central_point_deviation_u" type="double" value="0"/>
+                <param name="central_point_deviation_v" type="double" value="0"/>
+        </node>
+</launch>

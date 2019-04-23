@@ -1,0 +1,8 @@
+prefix=/home/kevin/workspace/20190409camera/ws/install
+
+Name: read_camera
+Description: Description of read_camera
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kevin/workspace/20190409camera/ws/install/lib 
+Requires: 

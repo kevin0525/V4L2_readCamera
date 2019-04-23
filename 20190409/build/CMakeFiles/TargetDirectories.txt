@@ -1,0 +1,3 @@
+/home/kevin/workspace/20190409camera/20190409/build/CMakeFiles/edit_cache.dir
+/home/kevin/workspace/20190409camera/20190409/build/CMakeFiles/rebuild_cache.dir
+/home/kevin/workspace/20190409camera/20190409/build/CMakeFiles/camera.dir

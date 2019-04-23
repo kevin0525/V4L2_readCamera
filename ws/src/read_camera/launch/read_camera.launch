@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+  <node pkg="read_camera" name="read_camera_node" type="read_camera_node" output="screen">
+  <param name="advertise_topic_name" type="string" value="/back_camera/image_raw"/>
+  <param name="video_location" type="string" value="/dev/video0"/>
+  <param name="show_video" type="bool" value="true"/>
+  <param name="show_fps" type="bool" value="false"/>
+  <param name="ifUndistortImage" type="bool" value="true"/>
+  <param name="loop_rate" type="double" value="60"/>
+  <param name="video_width" type="double" value="640"/>
+  <param name="video_height" type="double" value="480"/>
+  
+  <param name="cameraYML" type="string" value="$(find read_camera)/data/usb_xk1_640_480 .yml"/>
+  <param name="focal_multiple" type="double" value="1"/>
+  <param name="central_point_deviation_u" type="double" value="0"/>
+  <param name="central_point_deviation_v" type="double" value="0"/>
+
+  </node>
+</launch>
+
